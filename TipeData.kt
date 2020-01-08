@@ -1,9 +1,12 @@
 fun main(args: Array<String>){
 
-val str = "kamhar handsome"
-println(str)
-println(str)
-println(str)
-println(str)
-println(str)
+val nama = "kamhar ngado"
+val IPK = 2.75
+val umur = "24"
+
+println("====info====")
+println(nama)
+println(IPK)
+println(umur)
+
 }
