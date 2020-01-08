@@ -9,4 +9,12 @@ println("Nama: $nama")
 println("IPK: $IPK")
 println("umur: $umur")
 
+//penjumlahan dari 2
+var penjumlahan = "1+2=2"
+println("penjumlahan dari 2: $penjumlahan")
+//melakukan update
+penjumlahan = "1+1=2"
+println("penjumlahan dari 2: $penjumlahan")
+
+
 }
