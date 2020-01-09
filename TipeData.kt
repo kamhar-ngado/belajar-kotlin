@@ -18,7 +18,7 @@ println("penjumlahan dari 2: $penjumlahan")
 
 // fix null safaty
 var prodi: String
-prodi = "pendidikan matematika"
+prodi = "pendidikan matematika" 
 println("program studi: $prodi")
 
 }
