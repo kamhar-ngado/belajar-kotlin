@@ -1,4 +1,5 @@
-fun main(args: Array<String>) {
+fun main(args: Array<String>)
+ {
     var angka1:Int = 10
     var angka2:Int = 20
 
