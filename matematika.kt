@@ -6,13 +6,13 @@ fun main(args: Array<String>)
     print("masukan angka2:")
     val angka2:Int = readLine()!!.toInt()
 
-    val sum = angka1+angka2
+    val sum:Int = angka1+angka2
     println("penjumlahan: $angka1 + $angka2 = $sum")
 
-    val sub = angka2-angka1
+    val sub:Int = angka2-angka1
     println("pengurangan: $angka2 - $angka1 = $sub")
 
-    val mul =angka1*angka2
+    val mul:Int =angka1*angka2
     println("perkalian: $angka1 * $angka2 = $mul")
 
     val div = angka2/angka1
