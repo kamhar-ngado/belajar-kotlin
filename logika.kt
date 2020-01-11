@@ -24,7 +24,7 @@ fun main(args: Array<String>)
 
 
 {
-/*logika sederhana */
+println("logika sederhana bagian 1")
     val a:Boolean = 7>5
     val b:Boolean = 5<8
     val c:Boolean = 2==2
@@ -34,5 +34,14 @@ fun main(args: Array<String>)
     println(a)
     println(c)
     println(d)
+
+println("logika sederhana bagian 2")
+val f:Boolean = 5>3
+val g:Boolean = 6>=7
+val h:Boolean = 8<=9
+val i:Boolean = 11>=15
+
+println( f && g)
+println(h || i)
 
 }
