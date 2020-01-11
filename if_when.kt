@@ -5,14 +5,14 @@ fun main(args: Array<String>)
     print("masukan IQ anda: ")
     val IQ:Int = readLine()!!.toInt()
 
-    val ketampanan = if (jomblo && IQ <= 120)
+    val ketampanan = if (jomblo || IQ >= 120 && IQ <= 200)
     1 else 0
-    println("ketampanan saya adalah " + ketampanan)
+    println("ketampanan kamu adalah " + ketampanan + " dari 10")
 
     val Amazing = when (IQ)
     {
         100 -> true
         else -> false
     }
-    println("apakah saya Amazing? " + Amazing)
+    println("apakah kamu Amazing? " + Amazing)
 }
