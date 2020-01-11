@@ -1,4 +1,5 @@
-fun main(args: Array<String>){
+fun main(args: Array<String>)
+{
 
 val nama = "kamhar ngado"
 val IPK = 2.75
