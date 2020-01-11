@@ -1,7 +1,9 @@
 fun main(args: Array<String>)
 {
-    val jomblo = false
-    val IQ = 200
+    print("apakah kamu jomblo? ")
+    val jomblo:Boolean = readLine()!!.toBoolean()
+    print("masukan IQ anda: ")
+    val IQ:Int = readLine()!!.toInt()
 
     val ketampanan = if (jomblo && IQ <= 120)
     1 else 0
