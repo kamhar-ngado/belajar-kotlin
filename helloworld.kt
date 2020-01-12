@@ -1,4 +1,7 @@
-fun main(args: Array<String>){
+
+
+fun main(args: Array<String>)
+{
    
    val nama = "kamhar ngado"
    val prodi = "Pendidikan Matematika"
@@ -10,6 +13,5 @@ fun main(args: Array<String>){
    println("kelas saya $kelas " + "angkatan " + angkatan)
 
 
-
-
 }
+
