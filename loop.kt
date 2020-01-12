@@ -12,7 +12,7 @@ fun main(args: Array<String>)
 
         println("++++++++buka lembaran baru+++++++++")
 
-    for (k:Int in 20 downTo 10)
+    for (k:Int in 20 downTo 8 step 3)
     {
         println("[$k]. kamhar not cool")
     }
