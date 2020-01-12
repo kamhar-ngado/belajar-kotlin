@@ -9,5 +9,12 @@ fun main(args: Array<String>)
     {
         println("[$j]. kamhar cool")
     }
-   
+
+        println("++++++++buka lembaran baru+++++++++")
+
+    for (k:Int in 20 downTo 10)
+    {
+        println("[$k]. kamhar not cool")
+    }
+
 }
