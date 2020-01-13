@@ -6,7 +6,7 @@ fun main()
     println("y = $y")
 
     println("saya ingin menambahkan x+1")
-    x = x + 1
+    x = x + 1  //i = i + 1 or i++
     println("x = " + x)
 
     println("kemudian saya juga mau menambahkan y = $y + 1")
