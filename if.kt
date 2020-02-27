@@ -6,7 +6,7 @@ fun main(args: Array<String>)
     if (nilai_ujian >= 90)
     println("nilaimu adalah A")
 
-    if (nilai_ujian >= 70 && nilai_ujian <= 90)
+    if (nilai_ujian >= 70 && nilai_ujian < 90)
     println("nilaimu adalah B")
 
     if (nilai_ujian >= 50 && nilai_ujian <= 70)
