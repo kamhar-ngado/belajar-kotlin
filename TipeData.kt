@@ -1,12 +1,14 @@
 fun main(args: Array<String>)
 {
 
-val nama = "kamhar ngado"
+val namaDepan = "kamhar "
+val namaBelakang = "ngado"
+val namaLengkap = namaDepan + namaBelakang
 val IPK = 2.75
-val umur = "24"
+val umur = "2"
 
 println("====info====")
-println("Nama: $nama")
+println("Nama: $namaLengkap")
 println("IPK: $IPK")
 println("umur: $umur")
 
@@ -19,7 +21,8 @@ println("penjumlahan dari 2: $penjumlahan")
 
 // fix null safaty
 var prodi: String
+
 prodi = "pendidikan matematika" 
-println("program studi: $prodi")
+println("program studi: $prodi!!")
 
 }
