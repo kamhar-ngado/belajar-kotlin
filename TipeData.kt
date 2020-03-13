@@ -5,12 +5,13 @@ val namaDepan = "kamhar "
 val namaBelakang = "ngado"
 val namaLengkap = namaDepan + namaBelakang
 val IPK = 2.75
-val umur = "2"
+val angkatan = 2018
 
 println("====info====")
 println("Nama: $namaLengkap")
 println("IPK: $IPK")
-println("umur: $umur")
+println("angkatan $angkatan")
+
 
 //penjumlahan dari 2
 var penjumlahan = "1+2=2"
