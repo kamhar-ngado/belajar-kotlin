@@ -1,4 +1,6 @@
 fun main(args:Array<String>) {
+
+    print("masukan angka kesuksesan: ")
     val noSuccess = readLine()!!.toInt()
     val success = 100
     val aim = "I am an android programmer"
